@@ -1,35 +1,3 @@
-// const mongodb = require('mongodb');
-
-// const MongoClient = mongodb.MongoClient;
-
-// const connectionString = 'mongodb+srv://root:root@clustertest.adfbz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-
-// let _db;
-
-// const mongoConnect = () => {
-//     //For connection and storing and store the connection of the database
-//     MongoClient.connect(connectionString)
-//         .then(client => {
-//             console.log('Connected to Database');
-//             _db = client.db('test');
-//         })
-//         .catch(err => {
-//             console.log(err);
-//             throw err;
-//         });
-// }
-
-// //return access to the database if it exist
-// const getDb = () => {
-//     if (_db) {
-//         return _db;
-//     }
-//     throw "No database found";
-// }
-
-
-// mongoConnect();
-
 const { MongoClient } = require('mongodb');
 
 main = async () => {
